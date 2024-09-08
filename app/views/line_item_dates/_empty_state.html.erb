@@ -1,0 +1,7 @@
+<div class="empty-state empty-state--only-child">
+  <p class="empty-state__text">
+    You don't have any dates yet!
+  </p>
+
+  <%= link_to "Add date", new_quote_line_item_date_path(@quote), class: "btn btn--primary", data: { turbo_frame: dom_id(LineItemDate.new) } %>
+</div>
