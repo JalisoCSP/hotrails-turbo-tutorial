@@ -1,24 +1,17 @@
-# README
+Followed tutorial here: https://www.hotrails.dev
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Running:
 
-Things you may want to cover:
+`bin/dev`
 
-* Ruby version
+=>
 
-* System dependencies
+```
+web: bin/rails server -p 3000
+js: yarn build --watch
+css: yarn build:css --watch
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Todos:
+* Unstyled date form
+* Icons instead of words for edit and delete buttons
