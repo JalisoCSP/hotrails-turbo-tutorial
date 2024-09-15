@@ -1,5 +1,12 @@
 Followed tutorial here: https://www.hotrails.dev
 
+### Installing:
+
+* `bundle`
+* `yarn`
+
+That's it!
+
 ### Running:
 
 `bin/dev`
@@ -13,5 +20,5 @@ css: yarn build:css --watch
 ```
 
 ### Todos:
-* Unstyled date form
+* Unstyled forms
 * Icons instead of words for edit and delete buttons
